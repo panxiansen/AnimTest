@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:id="@+id/button_b"
+       android:src="@mipmap/b"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="5dp"
+       android:paddingTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/button_c"
+        android:src="@mipmap/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"/>
+
+    <ImageView
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:id="@+id/button_d"
+        android:src="@mipmap/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:id="@+id/button_e"
+        android:src="@mipmap/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:id="@+id/button_f"
+        android:src="@mipmap/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:id="@+id/button_g"
+        android:src="@mipmap/g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:id="@+id/button_h"
+        android:src="@mipmap/h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/button_a"
+        android:src="@mipmap/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
